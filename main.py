@@ -7,3 +7,4 @@ import matplotlib.pyplot as plt
 # load the dataset
 load_data=pd.read_csv("data/housing.csv")
 print(load_data.head())
+# check for null values
