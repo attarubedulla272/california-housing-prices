@@ -21,3 +21,4 @@ for train_index, test_index in split.split(load_data,load_data["income_cat"]):
     test=load_data.iloc[test_index].drop("income_cat", axis=1)
     print(train.shape)
     print(test.shape)
+    print(train.head())
